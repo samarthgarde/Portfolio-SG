@@ -7,7 +7,7 @@ Portfolio website built using HTML5, CSS3, JavaScript.
 Particle.js.
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](.images/my-portfolio-1)
-![ss](.images/my-portfolio-2)
+![mockup720](.images/my-portfolio-1.png)
+![ss](.images/my-portfolio-2.png)
 
 
