@@ -4,39 +4,80 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Samarth Garde</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-   <!-- Navbar -->
-  <header>
-    <nav class="navbar">
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <h1 class="main-text">SAMARTH G</h1>
+    </div>
+    <div class="nav-links">
       <a href="index.html">Home</a>
-    </nav>
-  </header>
-  
-  <section>
-    <h2>🚀 My Projects</h2>
-    <hr>
-    <ul>
-      <li>
-        <b>Host a static website on AWS using S3, Route 53, AWS Certificate Manager and CloudFront</b>
-        <p>Deployed a static portfolio website on AWS using S3 for hosting, CloudFront for CDN, Route53 for domain, and ACM for HTTPS security.</p>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
 
-        <!-- Architecture Diagram -->
-      <div class="project-diagram">
-        <h3>Architecture Diagram</h3>
-        <img src="images/Architecture-s3-cloudfront.png" alt="AWS Project Architecture" width="600">
-      </div>
-    </ul>
-  </section>
-</body>
-</html>
+<section class="projects-section">
+  <h2>My Projects</h2>
+  <p class="project-intro">
+    Below are some of the hands-on projects I have built while learning and practicing
+    Cloud and DevOps technologies.
+  </p>
+
+  <!-- Project Card -->
+     <div class="project-card">
+  <h3>Build Highly Available Infrastructure using Terraform</h3>
+
+  <p>
+    Designed and provisioned a highly available, scalable cloud infrastructure on AWS
+    using Terraform as Infrastructure as Code (IaC).
+  </p>
+
+  <p>
+    <strong>Tech Stack:</strong>
+    Terraform, AWS EC2, VPC, Subnets, Internet Gateway, Application Load Balancer,
+    Auto Scaling Group, Security Groups
+  </p>
+
+  <p><strong>Key Responsibilities:</strong></p>
+  <ul>
+    <li>Created custom VPC with public subnets across multiple Availability Zones</li>
+    <li>Provisioned EC2 instances using Launch Template</li>
+    <li>Configured Application Load Balancer to distribute traffic</li>
+    <li>Implemented Auto Scaling Group for high availability and fault tolerance</li>
+    <li>Managed Security Groups and networking using Terraform modules</li>
+    <li>Used Terraform state and variables for reusable infrastructure</li>
+  </ul>
+
+  <div class="project-diagram">
+    <h4>Architecture Diagram</h4>
+    <img src="images/architecture_terraform.png" alt="Terraform Highly Available Architecture">
+  </div>
+
+  <p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/samarthgarde/Terraform-Build-highly-available-infrastructure" target="_blank">
+      View Terraform Project
+    </a>
+  </p>
+</div>
+
+
+</section>
+
 <footer>
-    <p>© <span id="2025"></span> Samarth Garde | Built with ❤️ in HTML & CSS</p>
+  <p>© 2025 Samarth Garde</p>
   <div class="social-links">
-    <a href="mailto:samarthgarde007@gmail.com">📧 Email</a> |
-    <a href="https://linkedin.com/in/samarthgarde" target="_blank">🔗 LinkedIn</a> |
-    <a href="https://github.com/samarthgarde" target="_blank">💻 GitHub</a>
+    <a href="https://linkedin.com/in/samarthgarde" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/samarthgarde" target="_blank">GitHub</a>
   </div>
 </footer>
+
+</body>
+</html>
