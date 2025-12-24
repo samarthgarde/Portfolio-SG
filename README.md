@@ -58,7 +58,7 @@ open index.html
 ```
 
 
-# 📌 Future Enhancements
+## 📌 Future Enhancements
 
 - Deploy on AWS S3 with CloudFront
 
