@@ -24,6 +24,7 @@ I am an engineering student and aspiring **Cloud & DevOps Engineer**, passionate
 
 ## 📂 Project Structure
 
+```bash
 portfolio_SG/
 │
 ├── index.html                 # Home page
@@ -46,11 +47,11 @@ portfolio_SG/
 ├── SAMARTH_GARDE_AWS_DEVOPS_RESUME.pdf   # Resume file
 │
 ├── README.md                  # Project documentation
-
+```
 
 ## 📥 How to Run Locally
 
-```
+```bash
 git clone https://github.com/samarthgarde/Portfolio-SG
 cd portfolio_SG
 open index.html
