@@ -7,7 +7,6 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ## 🧑‍💻 About Me
 I am an engineering student and aspiring **Cloud & DevOps Engineer**, passionate about Linux, AWS, Docker, CI/CD, and automation.
 
-
 ## 🚀 Features
 - Responsive design
 - Download Resume button
