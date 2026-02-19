@@ -2,7 +2,7 @@
 This is my personal portfolio website showcasing my skills, projects, and experience as a **Cloud & DevOps Engineer**.
 
 ## 🔗 Live Demo
-🔗 [Visit My Portfolio](reliable-travesseiro-f70d68.netlify.app)
+🔗 [Visit My Portfolio](https://reliable-travesseiro-f70d68.netlify.app/)
 
 ## 🧑‍💻 About Me
 I am an engineering student and aspiring **Cloud & DevOps Engineer**, passionate about Linux, AWS, Docker, CI/CD, and automation.
