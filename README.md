@@ -5,7 +5,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 🔗 [Visit My Portfolio](https://samarthgardeportfolio.netlify.app/)
 
 ## 🧑‍💻 About Me
-I am an engineering student and aspiring **Cloud & DevOps Engineer**, passionate about Linux, AWS, Docker, CI/CD, and automation.
+I am a recent graduate in computer science and aspiring **Cloud & DevOps Engineer**, passionate about Linux, AWS, Docker, CI/CD, and automation.
 
 ## 🚀 Features
 - Responsive design
@@ -30,8 +30,7 @@ portfolio_SG/
 ├── about.html                 # About Me page
 ├── projects.html              # Projects showcase
 ├── contact.html               # Contact page
-├── index11.html                # (Optional) Test / backup page
-│
+|
 ├── css/
 │   └── style.css              # Main stylesheet
 │
@@ -41,7 +40,7 @@ portfolio_SG/
 ├── images/
 │   ├── profile.jpg            # Profile photo
 │   ├── project1.png           # Project images
-│   └── icons/                 # Icons (if any)
+│   
 │
 ├── SAMARTH_GARDE_AWS_DEVOPS_RESUME.pdf   # Resume file
 │
@@ -54,8 +53,10 @@ portfolio_SG/
 git clone https://github.com/samarthgarde/Portfolio-SG
 cd portfolio_SG
 open index.html
+about.html
+projects.html
+contact.html
 ```
-
 
 ## 📌 Future Enhancements
 
